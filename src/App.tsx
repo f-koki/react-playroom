@@ -7,7 +7,7 @@ const App: React.FC = () => {
   return (
     <MuiThemeProvider theme={theme}>
       <div className="App">
-        <Button variant="outlined" onClick={()=>{}} color="primary">hoge</Button>
+        <Button variant="contained" onClick={()=>{}} color="primary">hoge</Button>
       </div>
     </MuiThemeProvider>
   );
